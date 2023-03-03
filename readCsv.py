@@ -34,8 +34,7 @@ plt.ylabel("Height/Angstrom", fontsize=20)
 plt.plot(floatLength,floatHeight)
 
 savePath = "./" + fileName[:-4] +".jpg"
-
-plt.show()
 plt.savefig(savePath)
 
+plt.show()
 print("The figure has been saved!")
